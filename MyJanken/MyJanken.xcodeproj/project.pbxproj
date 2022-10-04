@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB55D942366867D00FC64E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55D932366867D00FC64E7 /* AppDelegate.swift */; };
+		ECB55D962366867D00FC64E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55D952366867D00FC64E7 /* SceneDelegate.swift */; };
+		ECB55D982366867D00FC64E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55D972366867D00FC64E7 /* ViewController.swift */; };
+		ECB55D9B2366867D00FC64E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB55D992366867D00FC64E7 /* Main.storyboard */; };
+		ECB55D9D2366867E00FC64E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB55D9C2366867E00FC64E7 /* Assets.xcassets */; };
+		ECB55DA02366867E00FC64E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB55D9E2366867E00FC64E7 /* LaunchScreen.storyboard */; };
+		ECB55DAB2366867E00FC64E7 /* MyJankenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DAA2366867E00FC64E7 /* MyJankenTests.swift */; };
+		ECB55DB62366867E00FC64E7 /* MyJankenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DB52366867E00FC64E7 /* MyJankenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB55DA72366867E00FC64E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB55D882366867D00FC64E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB55D8F2366867D00FC64E7;
+			remoteInfo = MyJanken;
+		};
+		ECB55DB22366867E00FC64E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB55D882366867D00FC64E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB55D8F2366867D00FC64E7;
+			remoteInfo = MyJanken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB55D902366867D00FC64E7 /* MyJanken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJanken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB55D932366867D00FC64E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB55D952366867D00FC64E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECB55D972366867D00FC64E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB55D9A2366867D00FC64E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB55D9C2366867E00FC64E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB55D9F2366867E00FC64E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB55DA12366867E00FC64E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB55DA62366867E00FC64E7 /* MyJankenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyJankenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB55DAA2366867E00FC64E7 /* MyJankenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJankenTests.swift; sourceTree = "<group>"; };
+		ECB55DAC2366867E00FC64E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB55DB12366867E00FC64E7 /* MyJankenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyJankenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB55DB52366867E00FC64E7 /* MyJankenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJankenUITests.swift; sourceTree = "<group>"; };
+		ECB55DB72366867E00FC64E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB55D8D2366867D00FC64E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55DA32366867E00FC64E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55DAE2366867E00FC64E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB55D872366867D00FC64E7 = {
+			isa = PBXGroup;
+			children = (
+				ECB55D922366867D00FC64E7 /* MyJanken */,
+				ECB55DA92366867E00FC64E7 /* MyJankenTests */,
+				ECB55DB42366867E00FC64E7 /* MyJankenUITests */,
+				ECB55D912366867D00FC64E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB55D912366867D00FC64E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55D902366867D00FC64E7 /* MyJanken.app */,
+				ECB55DA62366867E00FC64E7 /* MyJankenTests.xctest */,
+				ECB55DB12366867E00FC64E7 /* MyJankenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB55D922366867D00FC64E7 /* MyJanken */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55D932366867D00FC64E7 /* AppDelegate.swift */,
+				ECB55D952366867D00FC64E7 /* SceneDelegate.swift */,
+				ECB55D972366867D00FC64E7 /* ViewController.swift */,
+				ECB55D992366867D00FC64E7 /* Main.storyboard */,
+				ECB55D9C2366867E00FC64E7 /* Assets.xcassets */,
+				ECB55D9E2366867E00FC64E7 /* LaunchScreen.storyboard */,
+				ECB55DA12366867E00FC64E7 /* Info.plist */,
+			);
+			path = MyJanken;
+			sourceTree = "<group>";
+		};
+		ECB55DA92366867E00FC64E7 /* MyJankenTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55DAA2366867E00FC64E7 /* MyJankenTests.swift */,
+				ECB55DAC2366867E00FC64E7 /* Info.plist */,
+			);
+			path = MyJankenTests;
+			sourceTree = "<group>";
+		};
+		ECB55DB42366867E00FC64E7 /* MyJankenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55DB52366867E00FC64E7 /* MyJankenUITests.swift */,
+				ECB55DB72366867E00FC64E7 /* Info.plist */,
+			);
+			path = MyJankenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB55D8F2366867D00FC64E7 /* MyJanken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB55DBA2366867E00FC64E7 /* Build configuration list for PBXNativeTarget "MyJanken" */;
+			buildPhases = (
+				ECB55D8C2366867D00FC64E7 /* Sources */,
+				ECB55D8D2366867D00FC64E7 /* Frameworks */,
+				ECB55D8E2366867D00FC64E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyJanken;
+			productName = MyJanken;
+			productReference = ECB55D902366867D00FC64E7 /* MyJanken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB55DA52366867E00FC64E7 /* MyJankenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB55DBD2366867E00FC64E7 /* Build configuration list for PBXNativeTarget "MyJankenTests" */;
+			buildPhases = (
+				ECB55DA22366867E00FC64E7 /* Sources */,
+				ECB55DA32366867E00FC64E7 /* Frameworks */,
+				ECB55DA42366867E00FC64E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB55DA82366867E00FC64E7 /* PBXTargetDependency */,
+			);
+			name = MyJankenTests;
+			productName = MyJankenTests;
+			productReference = ECB55DA62366867E00FC64E7 /* MyJankenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB55DB02366867E00FC64E7 /* MyJankenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB55DC02366867E00FC64E7 /* Build configuration list for PBXNativeTarget "MyJankenUITests" */;
+			buildPhases = (
+				ECB55DAD2366867E00FC64E7 /* Sources */,
+				ECB55DAE2366867E00FC64E7 /* Frameworks */,
+				ECB55DAF2366867E00FC64E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB55DB32366867E00FC64E7 /* PBXTargetDependency */,
+			);
+			name = MyJankenUITests;
+			productName = MyJankenUITests;
+			productReference = ECB55DB12366867E00FC64E7 /* MyJankenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB55D882366867D00FC64E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Komai Toshihiko";
+				TargetAttributes = {
+					ECB55D8F2366867D00FC64E7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					ECB55DA52366867E00FC64E7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ECB55D8F2366867D00FC64E7;
+					};
+					ECB55DB02366867E00FC64E7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ECB55D8F2366867D00FC64E7;
+					};
+				};
+			};
+			buildConfigurationList = ECB55D8B2366867D00FC64E7 /* Build configuration list for PBXProject "MyJanken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB55D872366867D00FC64E7;
+			productRefGroup = ECB55D912366867D00FC64E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB55D8F2366867D00FC64E7 /* MyJanken */,
+				ECB55DA52366867E00FC64E7 /* MyJankenTests */,
+				ECB55DB02366867E00FC64E7 /* MyJankenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB55D8E2366867D00FC64E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB55DA02366867E00FC64E7 /* LaunchScreen.storyboard in Resources */,
+				ECB55D9D2366867E00FC64E7 /* Assets.xcassets in Resources */,
+				ECB55D9B2366867D00FC64E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55DA42366867E00FC64E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55DAF2366867E00FC64E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB55D8C2366867D00FC64E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB55D982366867D00FC64E7 /* ViewController.swift in Sources */,
+				ECB55D942366867D00FC64E7 /* AppDelegate.swift in Sources */,
+				ECB55D962366867D00FC64E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55DA22366867E00FC64E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB55DAB2366867E00FC64E7 /* MyJankenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB55DAD2366867E00FC64E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB55DB62366867E00FC64E7 /* MyJankenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB55DA82366867E00FC64E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB55D8F2366867D00FC64E7 /* MyJanken */;
+			targetProxy = ECB55DA72366867E00FC64E7 /* PBXContainerItemProxy */;
+		};
+		ECB55DB32366867E00FC64E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB55D8F2366867D00FC64E7 /* MyJanken */;
+			targetProxy = ECB55DB22366867E00FC64E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB55D992366867D00FC64E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB55D9A2366867D00FC64E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB55D9E2366867E00FC64E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB55D9F2366867E00FC64E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB55DB82366867E00FC64E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB55DB92366867E00FC64E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB55DBB2366867E00FC64E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8HC49A4WY;
+				INFOPLIST_FILE = MyJanken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.komaEducation.MyJanken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB55DBC2366867E00FC64E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8HC49A4WY;
+				INFOPLIST_FILE = MyJanken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.komaEducation.MyJanken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB55DBE2366867E00FC64E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyJankenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.komaEducation.MyJankenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyJanken.app/MyJanken";
+			};
+			name = Debug;
+		};
+		ECB55DBF2366867E00FC64E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyJankenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.komaEducation.MyJankenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyJanken.app/MyJanken";
+			};
+			name = Release;
+		};
+		ECB55DC12366867E00FC64E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyJankenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.komaEducation.MyJankenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyJanken;
+			};
+			name = Debug;
+		};
+		ECB55DC22366867E00FC64E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyJankenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.komaEducation.MyJankenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyJanken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB55D8B2366867D00FC64E7 /* Build configuration list for PBXProject "MyJanken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB55DB82366867E00FC64E7 /* Debug */,
+				ECB55DB92366867E00FC64E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB55DBA2366867E00FC64E7 /* Build configuration list for PBXNativeTarget "MyJanken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB55DBB2366867E00FC64E7 /* Debug */,
+				ECB55DBC2366867E00FC64E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB55DBD2366867E00FC64E7 /* Build configuration list for PBXNativeTarget "MyJankenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB55DBE2366867E00FC64E7 /* Debug */,
+				ECB55DBF2366867E00FC64E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB55DC02366867E00FC64E7 /* Build configuration list for PBXNativeTarget "MyJankenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB55DC12366867E00FC64E7 /* Debug */,
+				ECB55DC22366867E00FC64E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB55D882366867D00FC64E7 /* Project object */;
+}
